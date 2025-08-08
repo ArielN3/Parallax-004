@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Parallax com 4 Imagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Hero Section com Parallax -->
+    <div class="hero-section">
+        <!-- Camada de Fundo - Mais Lenta -->
+        <div class="parallax-layer" id="layer1"></div>
+
+        <!-- Camada de Montanhas - Média Lenta -->
+        <div class="parallax-layer" id="layer2"></div>
+
+        <!-- Camada de Floresta - Média Rápida -->
+        <div class="parallax-layer" id="layer3"></div>
+
+        <!-- Camada de Primeiro Plano - Mais Rápida -->
+        <div class="parallax-layer" id="layer4"></div>
+
+        <!-- Overlay para melhor legibilidade -->
+        <div class="overlay"></div>
+
+        <!-- Conteúdo do Hero -->
+        <div class="hero-content">
+            <h2 id="hero-title">ByteCraft</h2>
+            <p id="hero-subtitle"></p>
+            <div class="scroll-indicator">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6,9 12,15 18,9"></polyline>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seções de Conteúdo -->
+    <div class="content-wrapper">
+
+        <!-- Seção 1 - Destaque Parallax -->
+        <section class="content-section">
+            <div class="container">
+                <h2>Promoções do Mês</h2>
+               
+                <div class="grid">
+                    <div class="card">
+                        <h3>Teclado Alienware</h3>
+                        <img src="teclado.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Teclado Alienware</h3>
+                        <img src="teclado-bra.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Monitor Alienware</h3>
+                        <img src="monitor.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Teclado Alienware</h3>
+                        <img src="gabinete.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Teclado Alienware</h3>
+                        <img src="teclado.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Teclado Alienware</h3>
+                        <img src="teclado-bra.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Monitor Alienware</h3>
+                        <img src="monitor.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Teclado Alienware</h3>
+                        <img src="gabinete.png" alt="Teclado Alienware">
+                        <p>Dispositivos de última geração com preços imperdíveis.</p>
+
+                        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2 - Produtos em Camadas -->
+        <section class="content-section alt">
+  <div class="container">
+    <h2>Linha Premium em Destaque</h2>
+    
+    <div class="layer-grid">
+
+      <div class="layer-card">
+        <img src="fone-1.png" alt="Fone de Ouvido 1" class="product-image">
+        <h4>Fone Gamer Alpha</h4>
+        <p>Áudio imersivo com iluminação RGB e cancelamento de ruído.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-2.png" alt="Fone de Ouvido 2" class="product-image">
+        <h4>Fone Studio Pro</h4>
+        <p>Qualidade profissional com graves intensos e conexão Bluetooth 5.0.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-1.png" alt="Fone de Ouvido 3" class="product-image">
+        <h4>Fone Noise Free</h4>
+        <p>Leve, confortável e com bateria de longa duração.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-2.png" alt="Fone de Ouvido 4" class="product-image">
+        <h4>Fone MaxSound</h4>
+        <p>Som estéreo dinâmico com ajuste anatômico e carregamento rápido.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-1.png" alt="Fone de Ouvido 1" class="product-image">
+        <h4>Fone Gamer Alpha</h4>
+        <p>Áudio imersivo com iluminação RGB e cancelamento de ruído.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-2.png" alt="Fone de Ouvido 2" class="product-image">
+        <h4>Fone Studio Pro</h4>
+        <p>Qualidade profissional com graves intensos e conexão Bluetooth 5.0.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-1.png" alt="Fone de Ouvido 3" class="product-image">
+        <h4>Fone Noise Free</h4>
+        <p>Leve, confortável e com bateria de longa duração.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      <div class="layer-card">
+        <img src="fone-2.png" alt="Fone de Ouvido 4" class="product-image">
+        <h4>Fone MaxSound</h4>
+        <p>Som estéreo dinâmico com ajuste anatômico e carregamento rápido.</p>
+        <div class="price-box">
+                            <span class="price">R$ 599,00</span>
+                        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+
+        
+    </div>
+<!-- Seção 3 - Chamada para Ação -->
+      <footer class="footer-section">
+  <div class="container">
+    <h2>Transforme Seu Mundo com Tecnologia</h2>
+    <p class="lead">
+      Conecte-se com o futuro. Explore os melhores produtos com a experiência de navegação que só o <strong>ByteCraft</strong> oferece.
+    </p>
+
+    <div class="footer-actions">
+      <a href="#loja" class="footer-btn">Ver Produtos</a>
+      <a href="#contato" class="footer-btn outline">Fale Conosco</a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 ByteCraft. Todos os direitos reservados.</p>
+      
+      <p>Feito com <a href="https://code-tinity.netlify.app/">CodeFinity</a> para quem ama tecnologia.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+  
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
